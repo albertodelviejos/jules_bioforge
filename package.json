@@ -1,0 +1,45 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertodelviejos/jules_bioforge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/albertodelviejos/jules_bioforge/issues"
+  },
+  "homepage": "https://github.com/albertodelviejos/jules_bioforge#readme",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.8.0",
+    "next": "^14.2.35",
+    "openai": "^6.34.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^6.0.3"
+  }
+}
